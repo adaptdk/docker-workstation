@@ -11,7 +11,7 @@ services:
     restart: always
 
   dns:
-    image: puttydk/dnsmasq
+    image: andyshinn/dnsmasq
     restart: always
     ports:
       - "53:53/tcp"
