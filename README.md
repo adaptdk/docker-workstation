@@ -18,5 +18,5 @@ alias drupal='docker-compose exec php drupal'
 ### Setup
 
 ```bash
-echo "nameserver	127.0.0.1" | sudo --tee /etc/resolver/docker2
+echo "nameserver	127.0.0.1" | sudo tee /etc/resolver/docker
 ```
