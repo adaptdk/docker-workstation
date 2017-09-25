@@ -1,4 +1,8 @@
 # Docker workstation setup
+After cloning the directory, symlink it to your home directory
+
+```bash
+ln -s docker-workstation/docker-compose.yml ~/docker-compose.yml
 
 ## php container with drupal code
 
@@ -7,4 +11,4 @@
 ### Setup
 
 ```bash
- echo "nameserver	127.0.0.1" | sudo --tee /etc/resolver/docker2
+echo "nameserver	127.0.0.1" | sudo --tee /etc/resolver/docker2
