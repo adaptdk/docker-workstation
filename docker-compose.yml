@@ -7,6 +7,7 @@ services:
       SSH_AUTH_SOCK: /ssh-agent/ssh-agent.sock
     volumes:
       - ~/.drush:/root/.drush
+      - ~/.drush:/home/www-data/.drush
 #      - ssh-agent:/ssh-agent
     restart: always
 
